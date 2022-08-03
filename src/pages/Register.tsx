@@ -1,5 +1,5 @@
 import React, { FC, ReactElement, useState } from "react";
-import Styles from "../styles/Register.module.css";
+import Styles from "../styles/Form.module.css";
 
 const Register: FC = (): ReactElement => {
   const [formData, setFormData] = useState({});

@@ -1,35 +1,45 @@
-html{
-  --color-primary: #d81b60;
-  --color-secondary: #8e24aa;
-  --color-accent: #e63946;
+html {
+  --color-primary: #1e2761;
+  --color-secondary: #408ec6;
+  --color-accent: #7a2048;
+  --color-nav-text: #f8f9fa;
+  --color-nav-hover: linear-gradient(
+    90deg,
+    rgba(223, 0, 175, 1) 0%,
+    rgba(0, 16, 255, 1) 100%
+  );
+  --color-edit: #007200;
+  --color-delete: #d00000;
   --color-accent-30: #e6394630;
-  --color-text-ligth: #FFFFFF;
+  --color-timestamp: #6c757d;
+  --color-text-ligth: #dee2e6;
   --color-text-dark: #252422;
-  --color-bg-ligth: #FFFFFF;
+  --color-bg-ligth: #ffffff;
   --color-bg-dark: #252422;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.theme-dark-text{
+.theme-dark-text {
   color: var(--color-text-ligth);
 }
 
-.theme-ligth-text{
+.theme-ligth-text {
   color: var(--color-text-dark);
 }
 
-.theme-dark-bg{
+.theme-dark-bg {
   background-color: var(--color-bg-dark);
 }
 
-.theme-ligth-bg{
+.theme-ligth-bg {
   background-color: var(--color-bg-ligth);
 }

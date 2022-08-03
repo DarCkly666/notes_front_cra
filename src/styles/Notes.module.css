@@ -1,0 +1,12 @@
+.notes {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  padding: 30px 70px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+  .notes {
+    padding: 30px 20px;
+  }
+}
