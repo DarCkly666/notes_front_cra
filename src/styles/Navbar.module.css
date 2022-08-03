@@ -19,6 +19,8 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 .navigation_item {
   margin: 0;
@@ -26,6 +28,7 @@
   font-weight: bold;
   cursor: pointer;
   position: relative;
+  margin-left: 10px;
 }
 
 .navigation_item span {
