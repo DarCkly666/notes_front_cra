@@ -2,7 +2,7 @@ import React, { createContext, ReactElement, useState } from "react";
 import { Theme } from "../interfaces/Theme.interface";
 
 const initTheme: Theme = {
-  theme: "dark",
+  theme: "ligth",
   setTheme: undefined,
 };
 

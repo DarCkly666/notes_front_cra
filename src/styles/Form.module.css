@@ -1,4 +1,4 @@
-.form_container{
+.form_container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.form{
+.form {
   width: 300px;
   height: 350px;
   box-sizing: border-box;
@@ -18,14 +18,14 @@
   box-shadow: 0px 0px 5px #00000050;
 }
 
-.form_title{
+.form_title {
   text-align: center;
   font-size: 24px;
   color: var(--color-accent);
   margin: 0;
 }
 
-.form_input{
+.form_input {
   width: auto;
   height: 33px;
   border: none;
@@ -35,20 +35,20 @@
   outline: none;
 }
 
-.form_input:focus{
+.form_input:focus {
   border-bottom: 2px solid var(--color-accent);
 }
 
-.form_already{
+.form_already {
   font-size: 14px;
 }
-.form_login{
+.form_login {
   color: var(--color-accent);
   font-weight: bold;
   cursor: pointer;
 }
 
-.form_submit{
+.form_submit {
   background-color: transparent;
   border: 2px solid var(--color-accent);
   border-radius: 3px;
@@ -59,7 +59,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.form_submit:hover{
+.form_submit:hover {
   background-color: var(--color-accent);
-  color: initial;
+  color: white;
 }
