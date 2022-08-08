@@ -1,8 +1,10 @@
 import React, { createContext, ReactElement, useState } from "react";
 import { Theme } from "../interfaces/Theme.interface";
 
+const getThemeSaved = window.localStorage.getItem("notes_app_theme");
+
 const initTheme: Theme = {
-  theme: "ligth",
+  theme: getThemeSaved ? getThemeSaved : "light",
   setTheme: undefined,
 };
 
